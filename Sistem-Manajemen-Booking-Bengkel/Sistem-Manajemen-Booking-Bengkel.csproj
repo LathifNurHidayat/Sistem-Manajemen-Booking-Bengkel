@@ -63,12 +63,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Model\" />
 	  <Folder Include="Data\" />
+	  <Folder Include="Model\" />
 	  <Folder Include="ViewModel\" />
 	  <Folder Include="View\SuperAdmin\" />
 	  <Folder Include="View\Petugas\" />
 	  <Folder Include="View\Pelanggan\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

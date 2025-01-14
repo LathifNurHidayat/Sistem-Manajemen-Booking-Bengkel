@@ -3,13 +3,13 @@
     x:Class="Sistem_Manajemen_Booking_Bengkel.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Sistem_Manajemen_Booking_Bengkel"
+    xmlns:local="clr-namespace:Sistem_Manajemen_Booking_Bengkel.View"
     Shell.FlyoutBehavior="Disabled"
     Title="Sistem_Manajemen_Booking_Bengkel">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="LoginPage"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="View/LoginPage" />
 
 </Shell>
